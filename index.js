@@ -1,4 +1,4 @@
-var text = ["Web Design", "Graphic Design", "Web Sol'n"];
+var text = ["Web Devlopment", "Graphic Design","Marketing Team", "Web Sol'n"];
 var counter = 0;
 var elem = document.getElementById("animated-text");
 setInterval(change, 3000);
@@ -25,3 +25,4 @@ $(".click-me").click(function() {
     $(this).find('.plus-path').toggleClass('d-none');
     $(this).find('.minus-path').toggleClass('d-none');
 });
+
