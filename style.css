@@ -1,6 +1,13 @@
-/*font-family: 'Satoshi', sans-serif;*/
-/*font-family: 'Supreme', sans-serif;*/
 
+/*font-family: 'Pencerio', cursive;*/
+/*font-family: 'Tanker', sans-serif;*/
+/*font-family: 'SF Pro Display', sans-serif;*/
+                                                
+
+
+*{
+    font-family: 'SF Pro Display', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .body {
     background-image: url(images/b1.png);
     background-size: cover;
@@ -9,22 +16,16 @@
 }
 
 .texth1{
-    font-family: 'Supreme', sans-serif;
-    font-style: thin;
     padding-left: 10%;
 }
 .animated-text {
     transition: opacity 0.5s ease-out;
     text-align: right;
     font-size: 80px;
-    font-family: 'Supreme', sans-serif;
-    font-style: thin
 }
 .paragraph{
     padding-left: 20%;
     font-size: 30px;
-    font-family: 'Supreme', sans-serif;
-    font-style: thin
 }
 
 header {
@@ -35,10 +36,12 @@ header {
     z-index: 3;
 }
 .bgfornav{
-    background-color: rgba(0, 0, 0, 0.649);
+    background-color: rgba(0, 0, 0, 0.669);
     border-radius: 40px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
     z-index: 3;
+    margin-top: 50px;
+    font-size: 15px;
 }
 
 .nav-link{
@@ -47,17 +50,19 @@ header {
     color: #ffffff !important;
 }
 
-
+.nav-item{
+    display: inline-block;
+}
 .nav-item :hover{
     background-color: rgb(255, 255, 255);
     color: black !important;
+    margin-top: 10px;
 }
 
 .test{
     height: 100vh;
     padding: 20%;
-    font-family: 'Supreme', sans-serif;
-    font-style: thin;
+    font-family: 'Pencerio', cursive;
 }
 
 

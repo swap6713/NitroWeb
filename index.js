@@ -26,3 +26,14 @@ $(".click-me").click(function() {
     $(this).find('.minus-path').toggleClass('d-none');
 });
 
+$(document).ready(function(){
+    var scroll_pos = 0;
+    $(document).scroll(function() { 
+        scroll_pos = $(this).scrollTop();
+        if(scroll_pos > 2) {
+            $('.bgfornav').stop().animate({'margin-top':"5px"},750);
+        } else {
+            $('.bgfornav').stop().animate({'margin-top':"30px"},750);
+        }
+    });
+});
