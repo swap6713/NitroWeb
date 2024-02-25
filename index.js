@@ -26,6 +26,9 @@ $(".click-me").click(function() {
     $(this).find('.minus-path').toggleClass('d-none');
 });
 
+
+
+
 $(document).ready(function(){
     var scroll_pos = 0;
     $(document).scroll(function() { 
@@ -37,3 +40,7 @@ $(document).ready(function(){
         }
     });
 });
+
+
+// drop down css
+

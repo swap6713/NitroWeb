@@ -6,8 +6,9 @@
 
 
 *{
-    font-family: 'SF Pro Display', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
+
 .body {
     background-image: url(images/b1.png);
     background-size: cover;
@@ -62,7 +63,6 @@ header {
 .test{
     height: 100vh;
     padding: 20%;
-    font-family: 'Pencerio', cursive;
 }
 
 
@@ -137,4 +137,15 @@ header {
     opacity: 1;
 }
 
+.hover{
+    transition: color 0.5s, transform 0.5s;
+}
+
+
+.hover:hover{
+    transform: translateY(-5px);
+}
+
+
+/* drop down css */
 
