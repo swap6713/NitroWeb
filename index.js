@@ -34,9 +34,9 @@ $(document).ready(function(){
     $(document).scroll(function() { 
         scroll_pos = $(this).scrollTop();
         if(scroll_pos > 2) {
-            $('.bgfornav').stop().animate({'margin-top':"5px"},750);
+            $('.bgfornav').stop().animate({'margin-top':"2px"},750);
         } else {
-            $('.bgfornav').stop().animate({'margin-top':"30px"},750);
+            $('.bgfornav').stop().animate({'margin-top':"25px"},750);
         }
     });
 });
