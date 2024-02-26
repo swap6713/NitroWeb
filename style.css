@@ -58,6 +58,11 @@ header {
     margin-top: 10px;
 }
 
+.svgimg{
+    width: 15px;
+    height: 15px;
+}
+
 .test{
     height: 100vh;
     padding: 15%;
@@ -146,4 +151,3 @@ header {
 
 
 /* drop down css */
-

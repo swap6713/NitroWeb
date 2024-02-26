@@ -1,36 +1,8 @@
 @media (max-width: 768px) {
     #header {
-    padding: 0%;
+    display: none !important;
     }
 
-    .bgfornav{
-        background-color: rgba(0, 0, 0, 0.669);
-        border-radius: 40px;
-        backdrop-filter: blur(8px);
-        z-index: 3;
-        margin-top: none !important;
-        font-size: 10px;
-    }
-
-    .reduceimg{
-        width: 12px;
-        height: 12px;
-    }
-    
-    .nav-link{
-        color: aliceblue !important;
-        border-radius: 40px !important;
-        color: #ffffff !important;
-    }
-    
-    .nav-item{
-        display: inline-block;
-    }
-    .nav-item :hover{
-        background-color: rgb(255, 255, 255);
-        color: black !important;
-        margin-top: 10px;
-    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -39,7 +11,7 @@
         align-items: center;
         justify-content: center;
         margin: 10%;
-        padding: 0;
+        padding-top: 50px;
         font-size: 4rem;
     }
 
@@ -70,4 +42,3 @@
         height: 70vh;
     }
 }
-
